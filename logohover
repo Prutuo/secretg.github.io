@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your GitHub Website</title>
+  <style>
+    .logo {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      width: 100px; /* Adjust the width to fit your logo */
+      height: auto; /* Adjust the height proportionally */
+      z-index: 9999; /* Set a high z-index to ensure the logo appears above other elements */
+      transition: transform 0.3s ease; /* Optional: add a smooth transition effect */
+    }
+
+    .logo:hover {
+      transform: scale(1.1); /* Optional: increase the logo size on hover */
+    }
+  </style>
+</head>
+<body>
+  <!-- Your website content goes here -->
+  
+  <img class="logo" src="path_to_your_logo_image" alt="Logo">
+</body>
+</html>
